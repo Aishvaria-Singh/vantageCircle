@@ -1,0 +1,10 @@
+<div class="collage">
+   
+    <div class="image-card" *ngFor="let image of images">
+        <img [src]="image.download_url" alt="{{image.author}}"/>
+        <div class="author">{{image.author}}</div>
+    </div>
+</div>
+
+
+  
